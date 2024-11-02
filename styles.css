@@ -1,0 +1,37 @@
+html {
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+body {
+    background-color: rgba(245, 245, 220, 0.37);
+    padding: 20px;
+    margin: 20px;
+}
+
+header {
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#treadmillvid {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    
+    position: fixed;
+    top: 25px;
+    left: 65px;
+}
+
+#classvidscontainer{
+    display: grid;
+}
+.classvids{
+    display: auto-fit;
+}
+nav::after{
+    clear: all;
+}
