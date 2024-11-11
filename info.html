@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!--Justin Buckner-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Started!</title>
@@ -10,10 +11,13 @@
 
 <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="info.html">Get Started</a>
-        <a href="classes.html">Classes</a>
+    <nav class="gridcontent">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Get Started</a></li>
+            <li><a href="classes.html">Classes</a></li>
+        </ul>
+
     </nav>
 
     <h1 class="formhead">Start the journey to the new you!</h1>
@@ -28,15 +32,15 @@
 
             <label for="fname">
                 Name:
-                <input id="fname" type="fname" name="fname" autofocus required placeholder="First Name" />
+                <input id="fname" type="text" name="fname" autofocus required placeholder="First Name" >
             </label>
             <label for="lname">
                 Last Name:
-                <input id="lname" type="lname" name="lname" required placeholder="Last Name">
+                <input id="lname" type="text" name="lname" required placeholder="Last Name">
             </label>
             <label for="email">
                 Email:
-                <input id="email" type="email" name="email" required placeholder="Email" /><br><br>
+                <input id="email" type="text" name="email" required placeholder="Email" ><br><br>
             </label>
             <label for="crosstraining"></label>
             Crosstraining
@@ -53,12 +57,12 @@
             <label for="BodyCombat"></label>
             BodyCombat
             <input type="checkbox" id="BodyCombat" name="BodyCombat" value="BodyCombat"><br>
-            <label for="Step Interval"></label>
+            <label for="StepInterval"></label>
             Step Interval
-            <input type="checkbox" id="Step Interval" name="Step Interval" value="Step Interval"><br>
-            <label for="Advanced Cross Training"></label>
+            <input type="checkbox" id="StepInterval" name="Step Interval" value="Step Interval"><br>
+            <label for="AdvancedCrossTraining"></label>
             Advanced Cross Training
-            <input type="checkbox" id="Advanced Cross Training" name="Advanced Cross Training"
+            <input type="checkbox" id="AdvancedCrossTraining" name="Advanced Cross Training"
                 value="Advanced Cross Training"><br>
             <label for="MixxedFIT"></label>
             MixxedFIT
@@ -88,7 +92,7 @@
 
 
 
-    </div>
+    
     <footer></footer>
 </body>
 
